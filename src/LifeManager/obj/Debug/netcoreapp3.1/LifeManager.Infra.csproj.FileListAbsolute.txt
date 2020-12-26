@@ -1,0 +1,12 @@
+D:\Projetos\LifeManager\src\LifeManager\obj\Debug\netcoreapp3.1\LifeManager.Infra.csprojAssemblyReference.cache
+D:\Projetos\LifeManager\src\LifeManager\obj\Debug\netcoreapp3.1\LifeManager.Infra.AssemblyInfoInputs.cache
+D:\Projetos\LifeManager\src\LifeManager\obj\Debug\netcoreapp3.1\LifeManager.Infra.AssemblyInfo.cs
+D:\Projetos\LifeManager\src\LifeManager\obj\Debug\netcoreapp3.1\LifeManager.Infra.csproj.CoreCompileInputs.cache
+D:\Projetos\LifeManager\src\LifeManager\bin\Debug\netcoreapp3.1\LifeManager.Infra.deps.json
+D:\Projetos\LifeManager\src\LifeManager\bin\Debug\netcoreapp3.1\LifeManager.Infra.dll
+D:\Projetos\LifeManager\src\LifeManager\bin\Debug\netcoreapp3.1\LifeManager.Infra.pdb
+D:\Projetos\LifeManager\src\LifeManager\bin\Debug\netcoreapp3.1\LifeManager.Domain.dll
+D:\Projetos\LifeManager\src\LifeManager\bin\Debug\netcoreapp3.1\LifeManager.Domain.pdb
+D:\Projetos\LifeManager\src\LifeManager\obj\Debug\netcoreapp3.1\LifeManager.Infra.csproj.CopyComplete
+D:\Projetos\LifeManager\src\LifeManager\obj\Debug\netcoreapp3.1\LifeManager.Infra.dll
+D:\Projetos\LifeManager\src\LifeManager\obj\Debug\netcoreapp3.1\LifeManager.Infra.pdb

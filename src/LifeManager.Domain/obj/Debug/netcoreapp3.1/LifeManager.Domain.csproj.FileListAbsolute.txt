@@ -1,0 +1,9 @@
+D:\Projetos\LifeManager\src\LifeManager.Domain\bin\Debug\netcoreapp3.1\LifeManager.Domain.deps.json
+D:\Projetos\LifeManager\src\LifeManager.Domain\bin\Debug\netcoreapp3.1\LifeManager.Domain.dll
+D:\Projetos\LifeManager\src\LifeManager.Domain\bin\Debug\netcoreapp3.1\LifeManager.Domain.pdb
+D:\Projetos\LifeManager\src\LifeManager.Domain\obj\Debug\netcoreapp3.1\LifeManager.Domain.csprojAssemblyReference.cache
+D:\Projetos\LifeManager\src\LifeManager.Domain\obj\Debug\netcoreapp3.1\LifeManager.Domain.AssemblyInfoInputs.cache
+D:\Projetos\LifeManager\src\LifeManager.Domain\obj\Debug\netcoreapp3.1\LifeManager.Domain.AssemblyInfo.cs
+D:\Projetos\LifeManager\src\LifeManager.Domain\obj\Debug\netcoreapp3.1\LifeManager.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\LifeManager\src\LifeManager.Domain\obj\Debug\netcoreapp3.1\LifeManager.Domain.dll
+D:\Projetos\LifeManager\src\LifeManager.Domain\obj\Debug\netcoreapp3.1\LifeManager.Domain.pdb

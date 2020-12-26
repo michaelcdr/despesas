@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AndroidLanches.API</name>
+    </assembly>
+    <members>
+        <member name="M:AndroidLanches.API.Controllers.MesaController.ObterDesocupadas">
+            <summary>
+            Retorna uma lista de mesas disponiveis
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AndroidLanches.API.Controllers.ProdutoController.ObterBebidas(AndroidLanches.Domain.Filtros.FiltrosBebida)">
+            <summary>
+            Retorna uma lista de bebidas disponiveis
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AndroidLanches.API.Controllers.ProdutoController.ObterPratos(AndroidLanches.Domain.Filtros.FiltrosPrato)">
+            <summary>
+            Retorna uma lista de pratos disponiveis
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
