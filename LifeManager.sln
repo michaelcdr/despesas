@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeManager.Infra", "src\Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeManager.Testes", "src\LifeManager.Testes\LifeManager.Testes.csproj", "{1A2A8B7E-47B1-4E21-8AEA-2419EC544841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeManager.Application", "src\LifeManager.Application\LifeManager.Application.csproj", "{DF929AA6-DB9C-4DDE-9231-E702421C6F3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeManager.Application", "src\LifeManager.Application\LifeManager.Application.csproj", "{DF929AA6-DB9C-4DDE-9231-E702421C6F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

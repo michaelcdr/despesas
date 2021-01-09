@@ -10,10 +10,7 @@ namespace LifeManager.Domain.Entities
             DespesasMensais = new List<DespesaMensal>();
         }
 
-        public Despesa(
-            int id, int diaVencimento, int parcelas, 
-            string descritivo, 
-            string titulo, decimal valor, bool processado, DateTime dataInicio)
+        public Despesa(int id, int diaVencimento, int parcelas, string descritivo, string titulo, decimal valor, bool processado, DateTime dataInicio)
         {
             Id = id;
             DiaVencimento = diaVencimento;
@@ -42,25 +39,24 @@ namespace LifeManager.Domain.Entities
         /// <summary>
         /// A partir do metodo de parcelas, iremos decompor a despesa em um numero de despesas mensais.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Retorna uma lista das despesas referente a cada parcela</returns>
         public List<DespesaMensal> GerarDespesas()
         {
             var despesasMensais = new List<DespesaMensal>();
             int mes = DateTime.Now.Month;
             int ano = DateTime.Now.Year;
-
+            const int DEZEMBRO = 12;
             for (int i = 0; i < this.Parcelas; i++)
             {
                 DateTime dataVencimento = new DateTime(ano, mes, this.DiaVencimento);
-                if (mes == 12)
+                if (mes == DEZEMBRO)
                 {
                     mes = 1;
                     ano++;
                 }
                 else
-                {
                     mes++;
-                }
+                
                 decimal valorParcela = CalcularParcela();
                 despesasMensais.Add(new DespesaMensal(0, this.Id, false, valorParcela, dataVencimento));
             }
@@ -68,9 +64,7 @@ namespace LifeManager.Domain.Entities
         }
 
         private decimal CalcularParcela()
-        {
-            return Math.Round((this.Valor / this.Parcelas), 2);
-        }
+            => Math.Round((this.Valor / this.Parcelas), 2);
 
         public void MarcarComoProcessado()
         {

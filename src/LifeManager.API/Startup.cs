@@ -26,7 +26,7 @@ namespace LifeManager.API
         }
 
         public IConfiguration Configuration { get; }
-
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -34,6 +34,7 @@ namespace LifeManager.API
             services.AddControllers().AddJsonOptions(options => {
                 
             });
+            services.AddCors();
 
             services.AddSwaggerGen(c =>
             {
@@ -86,7 +87,7 @@ namespace LifeManager.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors(b => b.AllowAnyOrigin());
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -15,11 +15,11 @@ namespace LifeManager.API.Controllers
     [Route("v1/despesa")]
     public class DespesaController : ControllerBase
     {
-        private readonly IDespesasRepositorio _despesasDao;
+        private readonly IDespesasRepositorio _despesasRepository;
         private readonly IMediator _mediator;
         public DespesaController(IDespesasRepositorio despesas, IMediator mediator)
         {
-            this._despesasDao = despesas;
+            this._despesasRepository = despesas;
             this._mediator = mediator;
         }
 
@@ -29,7 +29,7 @@ namespace LifeManager.API.Controllers
         /// <returns></returns>
         [HttpGet]
         public async Task<IEnumerable<Despesa>> Get()
-            => await _despesasDao.ObterTodas();
+            => await _despesasRepository.ObterTodas();
         
         /// <summary>
         /// Obter dados de uma Despesa pelo ID
@@ -38,7 +38,7 @@ namespace LifeManager.API.Controllers
         /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
-            => Ok(await _despesasDao.ObterPorId(id));
+            => Ok(await _despesasRepository.ObterPorId(id));
         
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CadastrarDespesaCommand command)
@@ -57,14 +57,14 @@ namespace LifeManager.API.Controllers
 
         [HttpGet("ObterTotalDespesasMensal")]
         public async Task<IActionResult> ObterTotalDespesasMensal()
-            => Ok(await _despesasDao.ObterGastosMensal());
+            => Ok(await _despesasRepository.ObterGastosMensal());
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            if (!await _despesasDao.Existe(id)) return NotFound();
+            if (!await _despesasRepository.Existe(id)) return NotFound();
 
-            await _despesasDao.Deletar(id);
+            await _despesasRepository.Deletar(id);
             return NoContent();
         }
     }

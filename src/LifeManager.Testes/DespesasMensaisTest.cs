@@ -24,13 +24,14 @@ namespace LifeManager.Testes
         }
 
         [Theory]
-        [InlineData(1, 1, 1)]
-        [InlineData(1, 2, 2)]
-        public void DeveGerarUmNumeroIgualAoNumeroEsperado(int dia, int parcelas, int numeroEsperadoDeDespesas)
+        [InlineData(1, 12, 2020, 1, 1)]
+        [InlineData(1, 12, 2020, 2, 2)]
+        [InlineData(1, 11, 2020, 6, 6)]
+        public void GerarDespesas_DeveGerarUmNumeroDeDespesas_IgualAoNumeroEsperado(int dia,int mes, int ano, int parcelas, int numeroEsperadoDeDespesas)
         {
-            var dataInicioDespesa = new DateTime(2020, 12, dia);
+            var dataInicioDespesa = new DateTime(ano, mes, dia);
 
-            var despesa = new Despesa(0, 15,parcelas, "Vivo", "Conta da vivo", 74.94m, false, dataInicioDespesa);
+            var despesa = new Despesa(0, 15, parcelas, "Vivo", "Conta da vivo", 74.94m, false, dataInicioDespesa);
 
             List<DespesaMensal> desepesasGeradas = despesa.GerarDespesas();
 
