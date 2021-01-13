@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xQpAv0YZszdIzR9WKzJ5TJ+n/6wngi6zVU4hwtzyrcjUWzsApKrpdkUxZlCQ/wPBDwO6alJSccUeylQ/8FHTUQ==",
+  "dgSpecHash": "9KjK56PkOVWVpKr2lK2ei6Ba/M9wXhPFgs7OfFpFoqP30JwSvkuY3ZNNAUOtk1BDxkjdtvzrFaTXpRZYpSebZQ==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\LifeManager\\src\\LifeManager.Domain\\LifeManager.Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\michael\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

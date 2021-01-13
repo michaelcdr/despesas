@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using LifeManager.API.DTO;
+using LifeManager.Application.DTO;
 using LifeManager.Domain.Entities;
 using LifeManager.Domain.Repositorios;
 using Microsoft.AspNetCore.Mvc;

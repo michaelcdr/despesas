@@ -1,8 +1,7 @@
-﻿using LifeManager.API.DTO;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace LifeManager.API.DTO
-{ 
+namespace LifeManager.Application.DTO
+{
     public class LembreteDTO
     {
         public int Id { get; set; }

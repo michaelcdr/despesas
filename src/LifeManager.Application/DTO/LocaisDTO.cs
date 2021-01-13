@@ -1,4 +1,4 @@
-﻿namespace LifeManager.API.DTO
+﻿namespace LifeManager.Application.DTO
 {
     public class LocaisDTO
     {

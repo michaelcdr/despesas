@@ -46,7 +46,7 @@ namespace LifeManager.Domain.Entities
             int mes = DateTime.Now.Month;
             int ano = DateTime.Now.Year;
             const int DEZEMBRO = 12;
-            for (int i = 0; i < this.Parcelas; i++)
+            for (int indice = 0; indice < this.Parcelas; indice++)
             {
                 DateTime dataVencimento = new DateTime(ano, mes, this.DiaVencimento);
                 if (mes == DEZEMBRO)

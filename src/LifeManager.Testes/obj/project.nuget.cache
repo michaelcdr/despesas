@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WA8Xnk3bZwydIpH8iM0P3bLxJaZCnNWs1KwK58yPABqxo65qiuyOBjmJB0ayuo4/XjRbYO6qPXNQB8lyy/HmKw==",
+  "dgSpecHash": "deeOR8FIoIYJ8W9J37Qs0Uw3aADu2Ka+PPrv+MFWYG9WNX/60E5WjcFdb8zOc6AUr4xoboMJSgVwfwlkIAk+lQ==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\LifeManager\\src\\LifeManager.Testes\\LifeManager.Testes.csproj",
   "expectedPackageFiles": [
@@ -53,8 +53,7 @@
     "C:\\Users\\michael\\.nuget\\packages\\xunit.core\\2.4.0\\xunit.core.2.4.0.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\michael\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512"
   ],
   "logs": []
 }

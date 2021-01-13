@@ -1,4 +1,6 @@
 ﻿using LifeManager.Application.Despesas.Commands;
+using LifeManager.Application.Despesas.Queries;
+using LifeManager.Application.DTO;
 using LifeManager.Domain.Entities;
 using LifeManager.Domain.Repositorios;
 using MediatR;
@@ -8,9 +10,6 @@ using System.Threading.Tasks;
 
 namespace LifeManager.API.Controllers
 {
-    /// <summary>
-    /// 
-    /// </summary>
     [ApiController]
     [Route("v1/despesa")]
     public class DespesaController : ControllerBase
@@ -30,7 +29,7 @@ namespace LifeManager.API.Controllers
         [HttpGet]
         public async Task<IEnumerable<Despesa>> Get()
             => await _despesasRepository.ObterTodas();
-        
+
         /// <summary>
         /// Obter dados de uma Despesa pelo ID
         /// </summary>
@@ -38,8 +37,11 @@ namespace LifeManager.API.Controllers
         /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
-            => Ok(await _despesasRepository.ObterPorId(id));
-        
+        { 
+            DespesaDTO despesaDTO = await _mediator.Send(new ObterDespesaPorId(id));
+            return Ok(despesaDTO);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CadastrarDespesaCommand command)
         {
@@ -51,7 +53,6 @@ namespace LifeManager.API.Controllers
         public async Task<IActionResult> ProcessarDespesas()
         {
             await _mediator.Send(new ProcessarDespesasCommand());
-           
             return Ok();
         }
 

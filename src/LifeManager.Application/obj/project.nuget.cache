@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tw4C4fjwtmnvwz7vHefwoHJdr8NHs0oI8oZsWjAzTdaA9gFvV/y3XLyg31krRj93NYnG3suO5o8hlnikg3AJ2A==",
+  "dgSpecHash": "w0Lz8rkkmkv33hNIxDskP4LUlO8tt4BL9cAAlWQm9Zx9q03RbKs3Hu6iVAXxzpHUQDS7kyI7VufG0iqT27l0uw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\LifeManager\\src\\LifeManager.Application\\LifeManager.Application.csproj",
   "expectedPackageFiles": [
@@ -150,8 +150,7 @@
     "C:\\Users\\michael\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\michael\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }
