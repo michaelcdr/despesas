@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LifeManager.Application</id>
+    <version>1.0.0</version>
+    <authors>LifeManager.Application</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="LifeManager.Infra" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper.Extensions.Microsoft.DependencyInjection" version="8.1.0" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="9.3.0" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation.DependencyInjectionExtensions" version="9.3.0" exclude="Build,Analyzers" />
+        <dependency id="MediatR" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="MediatR.Extensions.Microsoft.DependencyInjection" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projetos\LifeManager\src\LifeManager.Application\bin\Release\netcoreapp3.1\win-x86\LifeManager.Application.dll" target="lib\netcoreapp3.1\LifeManager.Application.dll" />
+  </files>
+</package>

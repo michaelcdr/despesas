@@ -1,0 +1,14 @@
+D:\Projetos\LifeManager\src\LifeManager.Application\bin\Release\netcoreapp3.1\win-x64\LifeManager.Application.deps.json
+D:\Projetos\LifeManager\src\LifeManager.Application\bin\Release\netcoreapp3.1\win-x64\LifeManager.Application.dll
+D:\Projetos\LifeManager\src\LifeManager.Application\bin\Release\netcoreapp3.1\win-x64\LifeManager.Application.pdb
+D:\Projetos\LifeManager\src\LifeManager.Application\bin\Release\netcoreapp3.1\win-x64\LifeManager.Domain.dll
+D:\Projetos\LifeManager\src\LifeManager.Application\bin\Release\netcoreapp3.1\win-x64\LifeManager.Infra.dll
+D:\Projetos\LifeManager\src\LifeManager.Application\bin\Release\netcoreapp3.1\win-x64\LifeManager.Infra.pdb
+D:\Projetos\LifeManager\src\LifeManager.Application\bin\Release\netcoreapp3.1\win-x64\LifeManager.Domain.pdb
+D:\Projetos\LifeManager\src\LifeManager.Application\obj\Release\netcoreapp3.1\win-x64\LifeManager.Application.csprojAssemblyReference.cache
+D:\Projetos\LifeManager\src\LifeManager.Application\obj\Release\netcoreapp3.1\win-x64\LifeManager.Application.AssemblyInfoInputs.cache
+D:\Projetos\LifeManager\src\LifeManager.Application\obj\Release\netcoreapp3.1\win-x64\LifeManager.Application.AssemblyInfo.cs
+D:\Projetos\LifeManager\src\LifeManager.Application\obj\Release\netcoreapp3.1\win-x64\LifeManager.Application.csproj.CoreCompileInputs.cache
+D:\Projetos\LifeManager\src\LifeManager.Application\obj\Release\netcoreapp3.1\win-x64\LifeManager.Application.csproj.CopyComplete
+D:\Projetos\LifeManager\src\LifeManager.Application\obj\Release\netcoreapp3.1\win-x64\LifeManager.Application.dll
+D:\Projetos\LifeManager\src\LifeManager.Application\obj\Release\netcoreapp3.1\win-x64\LifeManager.Application.pdb
