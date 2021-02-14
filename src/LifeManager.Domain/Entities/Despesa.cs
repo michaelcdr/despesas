@@ -8,6 +8,7 @@ namespace LifeManager.Domain.Entities
         public Despesa()
         {
             DespesasMensais = new List<DespesaMensal>();
+            Erros = new  List<NotificacaoItens>();
         }
 
         public Despesa(int id, int diaVencimento, int parcelas, string descritivo, string titulo, decimal valor, bool processado, DateTime dataInicio)
@@ -29,6 +30,20 @@ namespace LifeManager.Domain.Entities
         public int Parcelas { get; private set; }
         public string Descritivo { get; private set; }
         public string Titulo { get; private set; }
+
+        public List<NotificacaoItens> Erros { get; private set; }
+        public List<NotificacaoItens> ObterErros()
+        {
+            return Erros;
+        }
+
+        public bool EhValido()
+        {
+            Erros = new List<NotificacaoItens>();
+
+            return Erros.Count > 0;
+        }
+
         public decimal Valor { get; private set; }
         public DateTime DataCadastro { get; private set; }
         public DateTime DataInicio { get; private set; }

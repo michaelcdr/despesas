@@ -12,6 +12,7 @@ namespace LifeManager.API.Profiles
             CreateMap<DespesaDTO, Despesa>();
             CreateMap<Despesa, DespesaDTO>();
             CreateMap<CadastrarDespesaCommand, Despesa>();
+            CreateMap<AtualizarDespesaCommand, Despesa>();
         }
     }
 }

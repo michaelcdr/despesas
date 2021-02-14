@@ -22,7 +22,10 @@ namespace LifeManager.Application.Despesas.Handlers
         public async Task<int> Handle(CadastrarDespesaCommand request, CancellationToken cancellationToken)
         {
             var despesa = _mapper.Map<Despesa>(request);
-            var id = await _despesasDao.Adicionar(despesa);
+            int id = 0;
+            if (despesa.EhValido())
+                id = await _despesasDao.Adicionar(despesa);
+            
             return  id;
         }
     }

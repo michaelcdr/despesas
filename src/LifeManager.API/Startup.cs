@@ -3,7 +3,7 @@ using LifeManager.API.Profiles;
 using LifeManager.Domain.Repositorios;
 using LifeManager.Infra.DBConfiguration;
 using LifeManager.Infra.EF;
-using LifeManager.Infra.Repositorios.EF;
+
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -58,20 +58,24 @@ namespace LifeManager.API
 
             services.AddAutoMapper(typeof(DespesaMap));
             services.AddAutoMapper(typeof(LembreteMap));
-            //services.AddScoped<IDatabaseFactory, MySqlDatabaseFactory>();         // usando mysql
+
             services.AddScoped<IDatabaseFactory, SqlServerDatabaseFactory>();       // usando sql Server
-            services.AddTransient<IDespesasRepositorio, DespesasRepositorio>();
-            services.AddTransient<ILembretesRepositorio, LembretesRepositorio>();
+            services.AddTransient<IDespesasRepositorio, LifeManager.Infra.Repositorios.EF.DespesasRepositorio>();
+            services.AddTransient<ILembretesRepositorio, LifeManager.Infra.Repositorios.EF.LembretesRepositorio>();
+
+            //services.AddScoped<IDatabaseFactory, MySqlDatabaseFactory>();         // usando mysql
+            //services.AddTransient<IDespesasRepositorio, LifeManager.Infra.Repositorios.Dapper.DespesasRepositorio>();
+            //services.AddTransient<ILembretesRepositorio, LifeManager.Infra.Repositorios.Dapper.LembretesRepositorio>();
 
             var assembly = AppDomain.CurrentDomain.Load("LifeManager.Application");
             services.AddMediatR(assembly);
+
             //services.add(options =>
             //{
             //    options.DefaultApiVersion = new ApiVersion(1, 0);
             //    options.AssumeDefaultVersionWhenUnspecified = true;
             //    options.ReportApiVersions = true;
             //});
-           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

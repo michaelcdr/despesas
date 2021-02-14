@@ -78,5 +78,11 @@ namespace LifeManager.Infra.Repositorios.EF
         {
             return await _context.Despesas.AnyAsync(despesa => despesa.Id == id);
         }
+
+        public async Task Atualizar(Despesa despesa)
+        {
+            _context.Entry(despesa).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+        }
     }
 }

@@ -6,10 +6,10 @@ using Xunit;
 
 namespace LifeManager.Testes
 {
-    public class DespesasMensaisTest
+    public class DespesasGerarDespesas
     {
         [Fact]
-        public void TotalDeDespesasDeveSerPositivo()
+        public void RetornaVerdadeiroQuandoValorTotalMaiorOuIgualAZero()
         {
             var dataInicioDespesa = new DateTime(2020, 12, DateTime.Now.Day);
             const int DiaVencimento = 15;
@@ -27,7 +27,7 @@ namespace LifeManager.Testes
         [InlineData(1, 12, 2020, 1, 1)]
         [InlineData(1, 12, 2020, 2, 2)]
         [InlineData(1, 11, 2020, 6, 6)]
-        public void GerarDespesas_DeveGerarUmNumeroDeDespesas_IgualAoNumeroEsperado(int dia,int mes, int ano, int parcelas, int numeroEsperadoDeDespesas)
+        public void DeveGerarUmNumeroDeDespesas_IgualAoNumeroEsperado(int dia,int mes, int ano, int parcelas, int numeroEsperadoDeDespesas)
         {
             var dataInicioDespesa = new DateTime(ano, mes, dia);
 

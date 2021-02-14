@@ -18,5 +18,6 @@ namespace LifeManager.Domain.Repositorios
         Task<bool> ExisteDespesaMensalAberta(DespesaMensal despesaMensal);
         Task<decimal> ObterGastosMensal();
         Task<bool> Existe(int id);
+        Task Atualizar(Despesa despesa);
     }
 }

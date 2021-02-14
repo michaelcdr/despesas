@@ -8,11 +8,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AndroidLanches.Infra.Repositories
+namespace LifeManager.Infra.Repositorios.Dapper
 {
-    public class DespesaRepositorio : BaseRepository , IDespesaRepositorio
+    public class DespesasRepositorio : BaseRepository , IDespesaRepositorio
     {
-        public DespesaRepositorio(IDatabaseFactory databaseFactory) : base(databaseFactory)
+        public DespesasRepositorio(IDatabaseFactory databaseFactory) : base(databaseFactory)
         {
 
         }

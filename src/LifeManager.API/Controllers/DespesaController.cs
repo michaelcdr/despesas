@@ -1,5 +1,6 @@
 ﻿using LifeManager.Application.Despesas.Commands;
 using LifeManager.Application.Despesas.Queries;
+using LifeManager.Application.Despesas.Responses;
 using LifeManager.Application.DTO;
 using LifeManager.Domain.Entities;
 using LifeManager.Domain.Repositorios;
@@ -47,6 +48,13 @@ namespace LifeManager.API.Controllers
         {
             int despesaId = await _mediator.Send(command);
             return CreatedAtRoute("", despesaId);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Put([FromBody] AtualizarDespesaCommand command)
+        {
+            AtualizarDespesaResponse response = await _mediator.Send(command);
+            return Ok();
         }
 
         [HttpPost("ProcessarDespesas")]
