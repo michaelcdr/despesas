@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\LifeManager\\src\\LifeManager.Domain\\LifeManager.Domain.csproj": {}
+    "D:\\Projetos\\despesas\\src\\LifeManager.Domain\\LifeManager.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\LifeManager\\src\\LifeManager.Domain\\LifeManager.Domain.csproj": {
+    "D:\\Projetos\\despesas\\src\\LifeManager.Domain\\LifeManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\LifeManager\\src\\LifeManager.Domain\\LifeManager.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\despesas\\src\\LifeManager.Domain\\LifeManager.Domain.csproj",
         "projectName": "LifeManager.Domain",
-        "projectPath": "D:\\Projetos\\LifeManager\\src\\LifeManager.Domain\\LifeManager.Domain.csproj",
-        "packagesPath": "C:\\Users\\michael\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\LifeManager\\src\\LifeManager.Domain\\obj\\",
+        "projectPath": "D:\\Projetos\\despesas\\src\\LifeManager.Domain\\LifeManager.Domain.csproj",
+        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\despesas\\src\\LifeManager.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

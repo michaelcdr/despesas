@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2BO2tEWyTJKhop7KIgNDMBQZFs+Fg5mARcbk7QohaK7VEsOk5x/uZxFnINyd+Hogw4seM5x4vv63SXtgEEYOgg==",
+  "dgSpecHash": "kj9FytcT7udwFlkP+kN7MrFv6U7HnDbT5scpqbLvuM6VBEOkxWrlgrSS8ty9eTITx5TyCKYZEuHDPlkjls5GhQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\LifeManager\\src\\LifeManager.Domain\\LifeManager.Domain.csproj",
+  "projectFilePath": "D:\\Projetos\\despesas\\src\\LifeManager.Domain\\LifeManager.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
